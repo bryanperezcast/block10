@@ -1,0 +1,109 @@
+main{
+    position: relative;
+}
+
+.top-row{
+    display: flex;
+    height: 11vw ;
+    margin-bottom: 15px;
+}
+.top-row > div{
+    background-color: skyblue;
+    flex: 1;
+}
+.top-row > div:nth-child(2){
+    margin: 0 10px 0 10px;
+}
+.mid-row{
+    height: 43vw;
+    background-color: skyblue;
+    margin-bottom: 10px;
+}
+.bottom-row{
+    height: 3vw;
+    background-color: yellowgreen;
+}
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    z-index: 2;
+}
+.one{
+    width: 12vw;
+    height: 12vw;
+    background-color: rgb(247, 211, 216);
+    left: 27%;
+    top: 12%;
+}
+.two{
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(247, 211, 216);
+    left: 45%;
+    top: 3%;
+}
+.three{
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(247, 211, 216);
+    left: 2%;
+    top: 0%;
+}
+.four{
+    width: 5vw;
+    height: 5vw;
+    background-color: rgb(247, 211, 216);
+    left: 5%;
+    top: 9%;
+}
+.five{
+    width: 12vw;
+    height: 12vw;
+    background-color: yellow;
+    left: 13%;
+    top: 5%;
+}
+.six{
+    width: 5vw;
+    height: 5vw;
+    background-color: yellow;
+    left: 15%;
+    top: 30%;
+}
+.triangle{
+    position: absolute;
+}
+.tri-one{
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 30vw solid yellowgreen;
+    left: 80%;
+    top: 43.5%;
+    z-index: 2;
+}
+.tri-two{
+    border-left: 20vw solid transparent;
+    border-right: 20vw solid transparent;
+    border-bottom: 43vw solid green;
+    left: 55%;
+    top: 21%;
+    z-index: 1;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.forminput{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-self: center;
+}
+.submitbutton{
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 30%;
+    align-self: center;
+    background-color: antiquewhite;
+}
